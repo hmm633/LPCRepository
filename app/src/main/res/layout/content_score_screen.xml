@@ -36,7 +36,6 @@
             android:layout_marginLeft="17dp"
             android:layout_marginRight="17dp"
             android:layout_marginBottom="17dp"
-            android:layout_gravity=""
             />
 
     </TableRow>
@@ -47,8 +46,8 @@
         android:layout_gravity="center_horizontal">
 
         <Button
-            android:layout_width="140dp"
-            android:layout_height="140dp"
+            android:layout_width="142dp"
+            android:layout_height="142dp"
             android:text="New Button"
             android:id="@+id/button3"
             android:layout_column="0"
@@ -59,8 +58,8 @@
         />
 
         <Button
-            android:layout_width="140dp"
-            android:layout_height="140dp"
+            android:layout_width="142dp"
+            android:layout_height="142dp"
             android:text="New Button"
             android:id="@+id/button4"
             android:layout_column="0"
