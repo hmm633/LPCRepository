@@ -50,3 +50,4 @@ public class ScoreScreen extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 }
+
