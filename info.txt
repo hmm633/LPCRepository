@@ -7,8 +7,8 @@ TEAM MEMBERS
 ============
 
 Andy Tang (att366)
-Alexandra Martinez ()
-Heriberto Macias ()
+Alexandra Martinez (am56376)
+Heriberto Macias (hmm633)
 
 =============================
 INSTRUCTIONS (HOW TO USE APP)
