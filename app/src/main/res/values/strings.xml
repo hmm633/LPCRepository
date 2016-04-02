@@ -1,8 +1,12 @@
 <resources>
+    <string name="app_name">LifePointCounter</string>
+
+    <!-- Developers -->
     <string name="andy_tang">Andy Tang</string>
     <string name="alexandra_martinez">Alexandra Martinez</string>
     <string name="heriberto_macias">Heriberto Macias</string>
-    <string name="app_name">LifePointCounter</string>
+    
+    <!-- Score Screen -->
     <string name="action_settings">Settings</string>
     <string name="add_player">+</string>
     <string name="remove_player">-</string>
