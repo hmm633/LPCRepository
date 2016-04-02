@@ -23,6 +23,8 @@ LIST OF COMPLETED FEATURES
 a list of features / use cases you have completed
 
 Splash Screen Completed
+Score Screen…
+Setting Screen
 
 ============================
 LIST OF UNCOMPLETED FEATURES
