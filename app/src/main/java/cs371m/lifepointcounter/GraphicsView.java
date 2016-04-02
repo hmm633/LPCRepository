@@ -11,7 +11,10 @@ import android.view.View;
 
 /**
  * Created by Monolith on 3/27/2016.
+ *
+ * INSERT PURPOSE OF GRAPHICS VIEW
  */
+
 public class GraphicsView extends View {
 
     private static final String TAG = "Graphic View";
