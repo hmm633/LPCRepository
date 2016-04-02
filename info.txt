@@ -1,0 +1,40 @@
+========
+info.txt
+========
+If we cannot get your app to install and run we will contact you to meet with us during office hours so you can demonstrate the app to us.
+============
+TEAM MEMBERS
+============
+
+Andy Tang (att366)
+Alexandra Martinez ()
+Heriberto Macias ()
+
+=============================
+INSTRUCTIONS (HOW TO USE APP)
+=============================
+Brief instructions on how to use the app. After working hours and hours on the app it will be obvious to you how it works, but imagine a new user, who has no idea. Copy any information from the high level read me.
+
+==========================
+LIST OF COMPLETED FEATURES
+==========================
+a list of features / use cases you have completed
+
+============================
+LIST OF UNCOMPLETED FEATURES
+============================
+a list of features / use cases from your application prototype (assignment 3) that you have not completed
+
+==========================
+LIST OF ADDED NEW FEATURES
+==========================
+a list of features / use cases you added that were not part of the application prototype
+
+====================
+REFERENCES & CREDITS
+====================
+
+f. a list of the classes and major chunks of code you obtained from other sources/ Include a reference. (URL and title okay)
+
+===========================
+CLASSES AND CODES COMPLETED===========================a list of the classes and major chunks of code you completed yourself
