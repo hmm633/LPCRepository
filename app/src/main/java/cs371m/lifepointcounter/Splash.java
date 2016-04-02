@@ -4,35 +4,38 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.Menu;
 
 /**
- * Created by AndyTang on 4/1/16.
+ * Created by Andy Tang on 4/1/16.
  *
- * Splash Screen Handler
+ * Splash Screen
+ *
+ * Reference1:  http://stackoverflow.com/questions/5486789/how-do-i-make-a-splash-screen
+ * Reference2:  https://www.youtube.com/watch?v=XwOuTjUFexE
  */
 
 public class Splash extends Activity {
 
     // Duration of splash screen's waiting time
-    private final int SPLASH_DISPLAY_LENGTH = 1000;
+    private final int SPLASH_DISPLAY_LENGTH = 2000;
 
-    /** Called when the activity is first created. */
     @Override
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
 
         /* New Handler to start the Menu-Activity
          * and close this Splash-Screen after some seconds.*/
-        new Handler().postDelayed(new Runnable(){
+        new Handler().postDelayed(new Runnable() {
+
             @Override
             public void run() {
                 /* Create an Intent that will start the Menu-Activity. */
-                Intent mainIntent = new Intent(Splash.this,Menu.class);
+                Intent mainIntent = new Intent(Splash.this, ScoreScreen.class);
                 Splash.this.startActivity(mainIntent);
                 Splash.this.finish();
             }
+
         }, SPLASH_DISPLAY_LENGTH);
     }
 }
