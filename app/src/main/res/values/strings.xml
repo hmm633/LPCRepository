@@ -31,4 +31,9 @@
     <string name="sound_effects">Sound Effects</string>
     <string name="font">Font</string>
     <string name="frame_color">Black Color</string>
+
+    <!-- Log Screen -->
+    <string name="player">Player</string>
+    <string name="plus_minus">+/-</string>
+    <string name="time">Time</string>
 </resources>
