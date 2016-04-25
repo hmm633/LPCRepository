@@ -19,16 +19,6 @@
         android:textSize="30sp"
         android:textColor="@color/textDefault"/>
 
-    <ImageView
-        android:id="@+id/splashImage"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:src="@drawable/splash"
-        android:layout_gravity="center"
-        android:layout_below="@id/appTitle"
-        android:layout_above="@+id/dev1"
-        android:layout_alignParentStart="true" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
