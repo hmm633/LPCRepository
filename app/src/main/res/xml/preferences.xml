@@ -28,38 +28,38 @@
 
     <!--For Beta or other future release (Comment out for alpha) -->
 
-    <PreferenceCategory
-        android:title="General Settings"
-        android:key="general_settings">
+    <!--<PreferenceCategory-->
+        <!--android:title="General Settings"-->
+        <!--android:key="general_settings">-->
 
-        <ListPreference
-            android:key="background"
-            android:title="Background"
-            android:summary=""
-            android:defaultValue="Default"
-            />
+        <!--<ListPreference-->
+            <!--android:key="background"-->
+            <!--android:title="Background"-->
+            <!--android:summary=""-->
+            <!--android:defaultValue="Default"-->
+            <!--/>-->
 
-        <CheckBoxPreference
-            android:key="sound_effects"
-            android:title="Sound Effects"
-            android:defaultValue="true"
-            android:summary="" />
+        <!--<CheckBoxPreference-->
+            <!--android:key="sound_effects"-->
+            <!--android:title="Sound Effects"-->
+            <!--android:defaultValue="true"-->
+            <!--android:summary="" />-->
 
-        <ListPreference
-            android:key="font"
-            android:title="Font"
-            android:summary=""
-            android:defaultValue="Font"
-            />
+        <!--<ListPreference-->
+            <!--android:key="font"-->
+            <!--android:title="Font"-->
+            <!--android:summary=""-->
+            <!--android:defaultValue="Font"-->
+            <!--/>-->
 
-        <ListPreference
-            android:key="frame_color"
-            android:title="Frame Color"
-            android:summary=""
-            android:defaultValue="@string/frame_color"
-            />
+        <!--<ListPreference-->
+            <!--android:key="frame_color"-->
+            <!--android:title="Frame Color"-->
+            <!--android:summary=""-->
+            <!--android:defaultValue="@string/frame_color"-->
+            <!--/>-->
 
-    </PreferenceCategory>
+    <!--</PreferenceCategory>-->
 
 
 

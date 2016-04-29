@@ -9,6 +9,21 @@
     tools:context="cs371m.lifepointcounter.ScoreScreen"
     android:background="#626465" >
 
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/view">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
     <Button
         android:id="@+id/add_player"
         android:layout_width="40dp"
@@ -17,10 +32,10 @@
         android:textSize="35sp"
         android:background="#aac713"
         android:foregroundGravity="left"
-        android:layout_alignParentTop="true"
+        android:onClick="addPlayer"
+        android:layout_below="@+id/view"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:onClick="addPlayer"/>
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/remove_player"
@@ -30,10 +45,10 @@
         android:textSize="35sp"
         android:background="#fc5e48"
         android:foregroundGravity="right"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:onClick="removePlayer"/>
+        android:onClick="removePlayer"
+        android:layout_below="@+id/view"
+        android:layout_alignRight="@+id/Player3"
+        android:layout_alignEnd="@+id/Player3" />
 
     <TextView
         android:id="@+id/Player1"
@@ -190,4 +205,3 @@
     </RelativeLayout>
 
 </RelativeLayout>
-

@@ -32,8 +32,6 @@
     <string name="font">Font</string>
     <string name="frame_color">Black Color</string>
 
-    <!-- Log Screen -->
-    <string name="player">Player</string>
-    <string name="plus_minus">+/-</string>
-    <string name="time">Time</string>
+    <string name="tutorial_title">Life Point Counter</string>
+    <string name="tutorial_text">Tap top or bottom of frames to change life\n\nSwipe Up/Down to increase/decrease by larger increments</string>
 </resources>

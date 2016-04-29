@@ -9,15 +9,29 @@
     tools:context="cs371m.lifepointcounter.ScoreScreen"
     android:background="#626465">
 
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
     <Button
         android:id="@+id/add_player"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:text="@string/add_player"
         android:textSize="35sp"
-        android:background="#aac713"
+        android:background="#4c5908"
         android:foregroundGravity="left"
-        android:layout_alignParentTop="true"
+        android:layout_below="@id/view"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:onClick="addPlayer"/>
@@ -30,7 +44,7 @@
         android:textSize="35sp"
         android:background="#fc5e48"
         android:foregroundGravity="right"
-        android:layout_alignParentTop="true"
+        android:layout_below="@id/view"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:onClick="removePlayer"/>
@@ -72,7 +86,7 @@
         android:layout_marginLeft="45dp">
 
         <cs371m.lifepointcounter.GraphicsView
-            android:id="@+id/view1"
+            android:id="@+id/graphicsView"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_alignTop="@+id/player1LifeText"
@@ -86,7 +100,7 @@
             android:text="@string/life1"
             android:textColor="#ffffff"
             android:textSize="75sp"
-            android:layout_centerInParent="@id/view1"
+            android:layout_centerInParent="@id/graphicsView"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true" />
 
@@ -101,7 +115,7 @@
         android:layout_marginLeft="70dp">
 
         <cs371m.lifepointcounter.GraphicsView
-            android:id="@+id/view2"
+            android:id="@+id/graphicsView2"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_alignTop="@+id/player2LifeText"
@@ -115,7 +129,7 @@
             android:text="@string/life2"
             android:textColor="#ffffff"
             android:textSize="75sp"
-            android:layout_centerInParent="@id/view2"
+            android:layout_centerInParent="@id/graphicsView2"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true" />
     </RelativeLayout>
@@ -157,7 +171,7 @@
         android:layout_marginLeft="45dp">
 
         <cs371m.lifepointcounter.GraphicsView
-            android:id="@+id/view3"
+            android:id="@+id/graphicsView3"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_alignTop="@+id/player3LifeText"
@@ -171,7 +185,7 @@
             android:text="@string/life3"
             android:textColor="#ffffff"
             android:textSize="75sp"
-            android:layout_centerInParent="@id/view3"
+            android:layout_centerInParent="@id/graphicsView3"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true" />
 
@@ -186,7 +200,7 @@
         android:layout_marginLeft="70dp">
 
         <cs371m.lifepointcounter.GraphicsView
-            android:id="@+id/view4"
+            android:id="@+id/graphicsView4"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_alignTop="@+id/player4LifeText"
@@ -200,7 +214,7 @@
             android:text="@string/life4"
             android:textColor="#ffffff"
             android:textSize="75sp"
-            android:layout_centerInParent="@id/view4"
+            android:layout_centerInParent="@id/graphicsView4"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true" />
     </RelativeLayout>
@@ -242,7 +256,7 @@
         android:layout_marginLeft="45dp">
 
         <cs371m.lifepointcounter.GraphicsView
-            android:id="@+id/view5"
+            android:id="@+id/graphicsView5"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_alignTop="@+id/player5LifeText"
@@ -256,7 +270,7 @@
             android:text="@string/life5"
             android:textColor="#ffffff"
             android:textSize="75sp"
-            android:layout_centerInParent="@id/view5"
+            android:layout_centerInParent="@id/graphicsView5"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true" />
     </RelativeLayout>
@@ -270,7 +284,7 @@
         android:layout_marginLeft="70dp">
 
         <cs371m.lifepointcounter.GraphicsView
-            android:id="@+id/view6"
+            android:id="@+id/graphicsView6"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_alignTop="@+id/player6LifeText"
@@ -284,7 +298,7 @@
             android:text="@string/life6"
             android:textColor="#ffffff"
             android:textSize="75sp"
-            android:layout_centerInParent="@id/view6"
+            android:layout_centerInParent="@id/graphicsView6"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true" />
     </RelativeLayout>

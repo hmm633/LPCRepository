@@ -28,14 +28,11 @@
             </intent-filter>
         </activity>
 
-
         <!-- Settings -->
         <activity
             android:name=".Settings"
             android:label="Settings" >
         </activity>
-
-
 
     </application>
 

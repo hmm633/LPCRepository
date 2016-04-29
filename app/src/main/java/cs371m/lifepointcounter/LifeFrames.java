@@ -21,7 +21,7 @@ public class LifeFrames {
     public int startingLifeTotal = MAGIC_TOTAL; // The default
     public int smallInc = MAGIC_SMALLINC;        // Value used when tapping on frames
     public int largeInc = MAGIC_LARGEINC;        // Value used when swiping on frames
-    public int numPlayers = 2;      // Current number of players displayed
+    public int numPlayers = 2;                  // Current number of players displayed
 
     // Array that stores life totals of all players
     int[] playerLPArray = new int[8];
@@ -74,6 +74,7 @@ public class LifeFrames {
     // Sets the smallInc
     public void setSmallInc(int life){
         smallInc = life;
+        Log.d("In setSmallInc", Integer.toString(smallInc));
     }
 
     // Gets the largeInc
@@ -84,6 +85,7 @@ public class LifeFrames {
     // Sets the largeInc
     public void setLargeInc(int life){
         largeInc = life;
+        Log.d("In setLargeInc", Integer.toString(largeInc));
     }
 
     // Get number of players
@@ -94,6 +96,11 @@ public class LifeFrames {
     // Set number of players
     public void setNumOfPlayers(int players){ // better variable name?
         numPlayers = players;
+    }
+
+    public void setStartingLifeTotal(int lifeTotal){
+        startingLifeTotal = lifeTotal;
+        Log.d("In LifeFrames", Integer.toString(startingLifeTotal));
     }
 
     // OTHER FUNCTIONS:
